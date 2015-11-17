@@ -1,4 +1,21 @@
 # Homework 10: Arrays
+##### COMSC-1033 Sec. 1411, Jordyn Hartzell, HW 9
+## Introduction
+### Outline
+### References and Literature
+```java
+// Liang Java 10th edition. Pg. 100, 3.13
+// switch(x){
+	case 0: example1; break
+	case 1: example2;
+	}
+// This is an example of how to use switch statements.
+
+// Liang Java 10th edition. Pg 204, 6.2.
+// modifier returnValueType methodName(list of parameteres){
+//	Method body;
+//   }
+// This listing shows the proper syntax for defining a method.
 # Code: Sorting Lists
 ## Console
 ### Command Prompt
