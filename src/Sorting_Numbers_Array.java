@@ -3,9 +3,9 @@ public class Sorting_Numbers_Array {
 	public static void main(String[] args) {
 		//System.out.println("Ahoy"); 
 		
-		menuOption();
+		menuOptionMethod();
 	}
-	public static void menuOption(){
+	public static void menuOptionMethod(){
 	//	System.out.println("If this runs, menuOption works");
 		
 		System.out.println("Please choose from the selection below by inputting an integer: ");
@@ -22,6 +22,7 @@ public class Sorting_Numbers_Array {
 	public static void userInputNumbersMethod(){
 		//System.out.println("If this runs, userInputNumbersMethod works");
 		System.out.println("You chose to input numbers.");
+		System.out.println("Please input integers only.");
 		
 		sortingAlgorithmUserInput();
 	}

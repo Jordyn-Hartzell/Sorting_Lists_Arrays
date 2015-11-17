@@ -21,6 +21,10 @@
 // public static int[] populateRandomArray(int[] numberArray, int listSize)
 // public static int[] sortOurArray(int[] numberArray, int listSize)
 // I used these custom methods as a guideline on how to import variables into new methods and how to use the methods to complete an array.
+
+// Liang Java 10th edition. Pg. 249, 7.2.6
+// Example 1
+// This shows how to create an array that will allow users to input the values.
 ```
 # Code: Sorting Lists
 ## Console
