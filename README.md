@@ -126,8 +126,49 @@ To https://github.com/Jordyn-Hartzell/Sorting_Lists_Arrays.git
  * [new branch]      dev -> dev
 Branch dev set up to track remote branch dev from origin.
 ```
+I made multiple commits along the way and pushed my changes to save my progress incrementally while keeping the remote repository up-to-date.
+```
 
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_10>git add .
 
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_10>git commit -m "updated readm
+e file"
+[dev 748e431] updated readme file
+ 3 files changed, 7 insertions(+), 2 deletions(-)
+ rewrite bin/Sorting_Numbers_Array.class (67%)
+
+E:\Jordyn_CS1_Workspace\Jordyn_Hartzell_Homework_10>git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': jordyn-hartzell
+Password for 'https://jordyn-hartzell@github.com':
+Counting objects: 7, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.62 KiB | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+To https://github.com/Jordyn-Hartzell/Sorting_Lists_Arrays.git
+   8a4cad6..748e431  dev -> dev
+```
 
 
 
