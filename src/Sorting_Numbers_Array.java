@@ -23,13 +23,57 @@ public class Sorting_Numbers_Array {
 		//System.out.println("If this runs, userInputNumbersMethod works");
 		System.out.println("You chose to input numbers.");
 		
+		sortingAlgorithmUserInput();
+	}
+	public static void sortingAlgorithmUserInput(){
+		//System.out.println("If this runs, sortingAlgorithmUserInput works");
+		int listAmount = 6;
+		int[] userInputNumberArray = new int[listAmount];
+		userInputNumberArray = getUserInputNumbers(userInputNumberArray, listAmount);
+		
+		userInputNumberArray = sortUserInputArray(userInputNumberArray, listAmount);
+		System.out.print("The numbers sorted in ascending order are: ");
+		for (int i = 0; i < listAmount; i++ ){
+			System.out.print(userInputNumberArray[i] + " ");
+		}
+	}
+	public static int[] getUserInputNumbers(int[] userInputNumberArray, int listAmount){
+		//System.out.println("If this runs, getUserInputNumbers works");
+		
+		java.util.Scanner input = new java.util.Scanner(System.in);
+		System.out.print("Enter " + listAmount + " values: ");
+		for(int i = 0; i < userInputNumberArray.length; i++){
+			userInputNumberArray[i] = input.nextInt();
+		}
+		return userInputNumberArray;
+	}
+	public static int[] sortUserInputArray(int[] userInputNumberArray, int listAmount){
+		//System.out.println("If this runs, sortUserInputArray works");
+		
+		int integer1;
+		int integer2;
+		for(int runthrough=0; runthrough < listAmount; runthrough++){
+		//System.out.println("This is runthrough " + runthrough);
+		for(int i=0; i<5; i++){
+			integer1 = userInputNumberArray[i];
+			integer2 = userInputNumberArray[i+1];
+			//System.out.println("Integer 1 is " + integer1);
+			//System.out.println("Integer 2 is " + integer2);
+			
+			if(integer1 > integer2){
+				userInputNumberArray[i+1] = integer1;
+				userInputNumberArray[i]= integer2;
+			}
+		}
+		}
+		return userInputNumberArray;
 	}
 	public static void randomlyGeneratedNumbersMethod(){
 		//System.out.println("If this runs, randomlyGeneratedNumbersMethod works");
 		System.out.println("You chose randomly generated numbers.");
-		sortingAlgorithm();
+		sortingAlgorithmRandom();
 	}
-	public static void sortingAlgorithm(){
+	public static void sortingAlgorithmRandom(){
 		//System.out.println("If this runs, sortingAlgorithm works");
 		
 		int listAmount = 6;
@@ -41,7 +85,7 @@ public class Sorting_Numbers_Array {
 			System.out.print(randomNumberArray[i] + " ");
 			
 		}
-		randomNumberArray = sortArray(randomNumberArray, listAmount);
+		randomNumberArray = sortRandomArray(randomNumberArray, listAmount);
 		System.out.print("\nThe numbers sorted in ascending order are: ");
 		for (int i = 0; i < listAmount; i++ ){
 			System.out.print(randomNumberArray[i] + " ");
@@ -56,7 +100,7 @@ public class Sorting_Numbers_Array {
 		}
 		return randomNumberArray;
 	}
-	public static int[] sortArray(int[] randomNumberArray, int listAmount){
+	public static int[] sortRandomArray(int[] randomNumberArray, int listAmount){
 		//System.out.println("\nIf this runs, sortArray is running");
 		
 		int integer1;
