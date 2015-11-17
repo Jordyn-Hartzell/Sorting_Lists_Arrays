@@ -16,6 +16,12 @@
 //	Method body;
 //   }
 // This listing shows the proper syntax for defining a method.
+
+// Evert, Jeremy "Sort3dNumbersIfStatementsProject" Github (https://github.com/swosu/Sort3NumbersIfStatementsProject.git)
+// public static int[] populateRandomArray(int[] numberArray, int listSize)
+// public static int[] sortOurArray(int[] numberArray, int listSize)
+// I used these custom methods as a guideline on how to import variables into new methods and how to use the methods to complete an array.
+```
 # Code: Sorting Lists
 ## Console
 ### Command Prompt
