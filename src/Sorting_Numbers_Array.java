@@ -6,7 +6,7 @@ public class Sorting_Numbers_Array {
 		menuOptionMethod();
 	}
 	public static void menuOptionMethod(){
-	//	System.out.println("If this runs, menuOption works");
+		//System.out.println("If this runs, menuOption works");
 		
 		System.out.println("Please choose from the selection below by inputting an integer: ");
 		System.out.println("1. Input your own numbers to sort.");
@@ -18,6 +18,7 @@ public class Sorting_Numbers_Array {
 		case 1: userInputNumbersMethod(); break;
 		case 2: randomlyGeneratedNumbersMethod();
 		}
+		
 	}
 	public static void userInputNumbersMethod(){
 		//System.out.println("If this runs, userInputNumbersMethod works");
@@ -42,7 +43,7 @@ public class Sorting_Numbers_Array {
 		//System.out.println("If this runs, getUserInputNumbers works");
 		
 		java.util.Scanner input = new java.util.Scanner(System.in);
-		System.out.print("Enter " + listAmount + " values: ");
+		System.out.print("Enter " + listAmount + " numbers: ");
 		for(int i = 0; i < userInputNumberArray.length; i++){
 			userInputNumberArray[i] = input.nextInt();
 		}
@@ -88,7 +89,7 @@ public class Sorting_Numbers_Array {
 		}
 		randomNumberArray = sortRandomArray(randomNumberArray, listAmount);
 		System.out.print("\nThe numbers sorted in ascending order are: ");
-		for (int i = 0; i < listAmount; i++ ){
+		for (int i = 0; i < listAmount; i++){
 			System.out.print(randomNumberArray[i] + " ");
 		}
 	}
@@ -116,7 +117,7 @@ public class Sorting_Numbers_Array {
 			
 			if(integer1 > integer2){
 				randomNumberArray[i+1] = integer1;
-				randomNumberArray[i]= integer2;
+				randomNumberArray[i]   = integer2;
 					
 			
 			}
