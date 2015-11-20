@@ -1,5 +1,5 @@
 # Homework 10: Arrays
-##### COMSC-1033 Sec. 1411, Jordyn Hartzell, HW 9
+##### COMSC-1033 Sec. 1411, Jordyn Hartzell, HW 10
 ## Introduction
 The two programs in this assignment both use arrays. The first assignment uses an array to sort a list of numbers. It offers the user the choice to input their own numbers or to allow the computer to generate numbers. The second program is a reworking of the addition game code to incorporate arrays. The programs use print statements, custom methods, scanner objects, case statements, for loops, if/else statements, and arrays.
 ### Outline
