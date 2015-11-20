@@ -32,7 +32,8 @@ Addition Game with Arrays
 	// Output correct answer
 	// Decrease difficulty
 // Output ending message
-// Output total score	
+// Output total score
+```	
 ### References and Literature
 ```java
 // Liang Java 10th edition. Pg. 100, 3.13
