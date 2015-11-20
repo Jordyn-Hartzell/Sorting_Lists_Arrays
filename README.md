@@ -1,5 +1,7 @@
 # Homework 10: Arrays
 ##### COMSC-1033 Sec. 1411, Jordyn Hartzell, HW 10
+(https://github.com/Jordyn-Hartzell/Sorting_Lists_Arrays)
+
 ## Introduction
 The two programs in this assignment both use arrays. The first assignment uses an array to sort a list of numbers. It offers the user the choice to input their own numbers or to allow the computer to generate numbers. The second program is a reworking of the addition game code to incorporate arrays. The programs use print statements, custom methods, scanner objects, case statements, for loops, if/else statements, and arrays.
 ### Outline
@@ -55,8 +57,14 @@ Addition Game with Arrays
 // I used these custom methods as a guideline on how to import variables into new methods and how to use the methods to complete an array.
 
 // Liang Java 10th edition. Pg. 249, 7.2.6
-// Example 1
-// This shows how to create an array that will allow users to input the values.
+// java.util.Scanner input = new java.util.Scanner(System.in);
+// System.out.print("Enter " + myList.length + " value: ");
+// for(int i = 0; i < myList.length; i++)
+//    myList[i] = input.nextDouble();
+// This shows the syntax to create an array that will allow users to input the values.
+
+// Hartzell, Jordyn "Hartzell_Jordyn_Homework_9" Github (https://github.com/Jordyn-Hartzell/Hartzell_Jordyn_Homework_9/blob/master/src/Addition_Game_Methods_and_Loops.java)
+// This is my previous addition game code. I used this and replaced the variables with an array for this assignment.
 ```
 # Code: Sorting Lists
 ```java
